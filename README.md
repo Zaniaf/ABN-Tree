@@ -27,10 +27,6 @@ Run the project with
 
 `npm start`
 
-You can view the page on http://localhost:8000
-
-
-
 You can run a linter for the back-end by using 
 
 `npm run lint`
@@ -40,3 +36,5 @@ You can run the tests for the conversion functions by using
 `npm run test` or `mocha tests/convert.js`
 
 
+### View the page
+You can view the page on http://localhost:8000
