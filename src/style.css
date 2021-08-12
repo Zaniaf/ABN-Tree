@@ -1,0 +1,50 @@
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: forestgreen;
+    stroke-width: 3px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+.wrapper {
+    overflow: hidden;
+    height: 100px;
+}
+
+#box {
+    color: green;
+    font-size: 20px;
+    margin: 30px 30px;
+    font-family: Arial;
+    float:left;
+}
+
+#closeButton {
+    display: none;
+    color: green;
+    font-weight: bold;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20%;
+    border: 3px solid green;
+}
+
+#errorMessage {
+    display: none;
+    color: red;
+    font-size: 20px;
+    margin: 30px 30px;
+    font-family: Arial;
+}
