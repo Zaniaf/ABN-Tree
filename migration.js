@@ -80,7 +80,7 @@ MongoClient.connect(process.env.CONNECTION_URL, { useUnifiedTopology: true })
         }).then(() => {
             return collection.insertMany(linearData)
                 .then(result => {
-                    console.log('Data inserted the to database successfully');
+                    console.log('Data inserted to the database successfully');
                 })
                 .catch(error => {
                     console.log('Something went wrong');
