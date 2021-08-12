@@ -26,6 +26,7 @@ Execute the migration script and add the data to the database by running
 Run the project with 
 
 `npm start`
+You can view the page on http://localhost:8000
 
 You can run a linter for the back-end directory by using 
 
